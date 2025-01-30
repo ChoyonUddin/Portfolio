@@ -10,7 +10,6 @@ html {
     /*background-color: aquamarine;  */
 }
 
-
 /* Classes */
 .main{
     max-width: 600px;
@@ -59,6 +58,7 @@ html {
 
 
 
+
 /* ID styles */
 
 #id_Styles{
@@ -77,9 +77,7 @@ html {
     -webkit-text-stroke-color: black;
 }
 
-/* #section_Id{
-    background-color: black;
-} */
+
 
 #header{
     /* background-color: black; */
@@ -94,12 +92,14 @@ html {
     width: 600px;
     display: block;
 }
-#body_top{
-    background : linear-gradient(to bottom, black 50%, transparent);
-    padding-bottom: 4px;
-    padding-top: 4px;
+#LightMode{
+    background-color: bisque;
+    /* Brown? */
 }
-
+#DarkMode{
+    background-color: black;
+    /* Beige Writing */
+}
 /* Backgrounds */
 #gradient {
     width: 100%;
@@ -110,7 +110,7 @@ html {
     filter: brightness(100%);
 }
 
-@keyframes gradient {
+@keyframes gradient{
       0% {
           background-position: 0% 50%;
       }
@@ -123,27 +123,8 @@ html {
   }
 
 
-
-
-
-/* Categorize Later */
-div.a {
-    width: 300px;
-    border: 10px solid blue;
-    padding: 2px;
-    margin: 2px;
-  }
-a.a:hover{
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
+ /* background : linear-gradient(to bottom, black 10%,rgb(0, 0, 114) 100%,transparent);
+    padding-bottom: 4px;
+    padding-top: 4px;
     animation: gradient 15s ease-in infinite;
-    filter: brightness(100%);
-}
-
-
-
-/*
-:target {
-    border: 2px solid #D4D4D4;
-    background-color: #e5eecc;
-  }
+    filter: brightness(100%); */

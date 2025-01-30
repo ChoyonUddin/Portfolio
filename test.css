@@ -1,0 +1,20 @@
+/* Notes:
+    - Having a the max-width of something half of what it's surrounded by automatically centers it
+ */
+
+ html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", "Segoe UI Emoji", "Apple Color Emoji",
+        "Noto Color Emoji", sans-serif;
+    /*background-color: aquamarine;  */
+}
+
+
+/* Classes */
+.test{font-size: 12px;}
+
+.testing{font-size: 240px}
+
+
+
